@@ -1,0 +1,128 @@
+
+==============================================================================
+[filler1_interleave] filler/- @ conv_04692967d
+  切换点=627.02s（事件起点 627.06s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s A.ABA.ABABABA.ABABABA.A.A.ABABA.ABABA.A.A.ABA.ABABA.A.A.A.ABABA.A.A.A.ABABA.A.ABA.ABABA.A.A.A.ABABA. +2.0s
+  切换点: A=说 B=静
+  窗口内 A 声学变化: 无
+  PP: initiation(新发起)；发起段 630.14–632.46s（延迟 +3.08s）
+  让出（A 在 PP 说话时进入 → PP 停止）: 延迟/让出时长的列表 [(np.float64(0.64), np.float64(0.16))]
+  PP 说话段共 7 个: [(np.float64(630.1), np.float64(632.5)), (np.float64(632.9), np.float64(635.5)), (np.float64(635.9), np.float64(636.9)), (np.float64(637.2), np.float64(637.3)), (np.float64(637.9), np.float64(639.5)), (np.float64(639.7), np.float64(640.5))]
+
+==============================================================================
+[filler2_interleave] filler/- @ conv_04692967d
+  切换点=722.90s（事件起点 722.94s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s ABABABA.ABA.ABA.A.ABABABABA.A.A.ABA.A.A.ABA.ABABABABABA.A.A.A.A.A.A.A.A.A.ABA.ABA.A.ABA.A.ABABABA.A. +2.0s
+  切换点: A=说 B=说；B 连续说话段 722.66–722.98s (跨切换点)
+  窗口内 A 声学变化: 无
+  PP: no-response
+  PP 说话段共 0 个: []
+
+==============================================================================
+[lengthen1_interleave] lengthen/- @ conv_14f897f75
+  切换点=117.57s（事件起点 117.61s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s A.A.A.A.ABABABA.ABABABA.A.A.A.ABABA.A.A.A.A.A.A.ABABA.A.A.A.A.ABABABABABA.A.A.A.A.A.A.A.A.A.A.A.A.A. +2.0s
+  切换点: A=说 B=说；B 连续说话段 117.49–117.57s (跨切换点)
+  窗口内 A 声学变化: 无
+  PP: initiation(新发起)；发起段 123.09–127.09s（延迟 +5.48s）
+  让出（A 在 PP 说话时进入 → PP 停止）: 延迟/让出时长的列表 [(np.float64(1.44), np.float64(2.0))]
+  PP 说话段共 3 个: [(np.float64(123.1), np.float64(127.1)), (np.float64(128.8), np.float64(132.3)), (np.float64(132.8), np.float64(133.4))]
+
+==============================================================================
+[lengthen2_interleave] lengthen/- @ conv_aa4777220
+  切换点=59.52s（事件起点 59.56s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s ..A.A.A.A.......A.A...A.A.A.A.A.A.....A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A...A.A.A.A.A.A.A.A.A.A.A.A.A.A. +2.0s
+  切换点: A=说 B=静
+  窗口内 A 声学变化: 57.60s(起), 57.92s(止), 58.16s(起), 58.32s(止), 58.40s(起), 58.88s(止)
+  PP: initiation(新发起)；发起段 67.52–69.28s（延迟 +7.96s）
+  PP 说话段共 3 个: [(np.float64(67.5), np.float64(69.3)), (np.float64(70.5), np.float64(71.4)), (np.float64(72.0), np.float64(75.3))]
+
+==============================================================================
+[overlap1_interleave] overlap/by_a @ conv_31982da49
+  切换点=72.81s（事件起点 72.85s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s .B...............................................B.B.B.BABABABABABAB.B.B.B.B.B.B.BABABABABABABABABAB +2.0s
+  切换点: A=静 B=说；B 连续说话段 72.73–75.21s (跨切换点)
+  窗口内 A 声学变化: 73.05s(起), 73.53s(止), 74.09s(起)
+  PP: continuation(延续被强制的B语音)；延续段 72.81–73.21s（时长 0.40s）；发起段 77.53–78.73s（延迟 +4.68s）
+  让出（A 在 PP 说话时进入 → PP 停止）: 延迟/让出时长的列表 [(np.float64(0.24), np.float64(0.16)), (np.float64(0.72), np.float64(0.48)), (np.float64(0.4), np.float64(3.76)), (np.float64(1.76), np.float64(2.4)), (np.float64(2.8), np.float64(1.36))]
+  PP 说话段共 5 个: [(np.float64(72.8), np.float64(73.2)), (np.float64(77.5), np.float64(78.7)), (np.float64(80.6), np.float64(84.7)), (np.float64(85.0), np.float64(86.2)), (np.float64(86.5), np.float64(88.6))]
+
+==============================================================================
+[overlap1_official] overlap/by_a @ conv_31982da49
+  切换点=72.81s（事件起点 72.85s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s .B...............................................B.B.B.BABABABABABAB.B.B.B.B.B.B.BABABABABABABABABAB +2.0s
+  切换点: A=静 B=说；B 连续说话段 72.73–75.21s (跨切换点)
+  窗口内 A 声学变化: 73.05s(起), 73.53s(止), 74.09s(起)
+  PP: continuation(延续被强制的B语音)；延续段 72.81–73.29s（时长 0.48s）；发起段 77.45–78.73s（延迟 +4.60s）
+  让出（A 在 PP 说话时进入 → PP 停止）: 延迟/让出时长的列表 [(np.float64(0.24), np.float64(0.24)), (np.float64(0.8), np.float64(0.48)), (np.float64(0.48), np.float64(0.32)), (np.float64(0.08), np.float64(5.2))]
+  PP 说话段共 4 个: [(np.float64(72.8), np.float64(73.3)), (np.float64(77.4), np.float64(78.7)), (np.float64(80.5), np.float64(81.3)), (np.float64(83.3), np.float64(88.6))]
+
+==============================================================================
+[overlap2_interleave] overlap/by_a @ conv_31bedfc99
+  切换点=252.41s（事件起点 252.45s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s .B.B.B.B.B.B.B.B.B.B.B.B.BAB.B.B.B.B.B.B.B.B.B.B.B.BABABABABABAB.B...B.B.B.B.B.B.B.B.B.B.B.B.B.B.B.B +2.0s
+  切换点: A=静 B=说；B 连续说话段 228.89–252.97s (跨切换点)
+  窗口内 A 声学变化: 251.45s(起), 251.53s(止), 252.49s(起), 252.97s(止)
+  PP: continuation(延续被强制的B语音)；延续段 252.41–253.37s（时长 0.96s）；发起段 256.25–256.65s（延迟 +3.80s）
+  让出（A 在 PP 说话时进入 → PP 停止）: 延迟/让出时长的列表 [(np.float64(0.08), np.float64(0.88))]
+  PP 说话段共 2 个: [(np.float64(252.4), np.float64(253.4)), (np.float64(256.2), np.float64(256.6))]
+
+==============================================================================
+[pause1_interleave] pause/- @ conv_04692967d
+  切换点=327.86s（事件起点 327.90s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s ABABA.ABABABABA..............BABA.ABABABA.ABABABABA.A..........B.B.B.B.B.B.BABABABABABABABA.ABA.ABAB +2.0s
+  切换点: A=说 B=静
+  窗口内 A 声学变化: 326.50s(止), 327.06s(起), 328.02s(止), 328.90s(起)
+  PP: initiation(新发起)；发起段 333.94–338.66s（延迟 +6.04s）
+  让出（A 在 PP 说话时进入 → PP 停止）: 延迟/让出时长的列表 [(np.float64(0.4), np.float64(2.48)), (np.float64(0.88), np.float64(2.0)), (np.float64(2.24), np.float64(0.64))]
+  PP 说话段共 2 个: [(np.float64(333.9), np.float64(338.7)), (np.float64(339.0), np.float64(341.9))]
+
+==============================================================================
+[pause1_official] pause/- @ conv_04692967d
+  切换点=327.86s（事件起点 327.90s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s ABABA.ABABABABA..............BABA.ABABABA.ABABABABA.A..........B.B.B.B.B.B.BABABABABABABABA.ABA.ABAB +2.0s
+  切换点: A=说 B=静
+  窗口内 A 声学变化: 326.50s(止), 327.06s(起), 328.02s(止), 328.90s(起)
+  PP: initiation(新发起)；发起段 332.58–333.06s（延迟 +4.68s）
+  PP 说话段共 3 个: [(np.float64(332.6), np.float64(333.1)), (np.float64(333.5), np.float64(334.1)), (np.float64(334.3), np.float64(335.5))]
+
+==============================================================================
+[pause2_interleave] pause/- @ conv_10cf7f6ff
+  切换点=50.01s（事件起点 50.05s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s A.A.A.A.A.A.A.........A.A.A.A.A.A.A.A.A.A.A...............A.....A.....A.A.A.A.......A.A.A.A.A.A.ABAB +2.0s
+  切换点: A=静 B=静
+  窗口内 A 声学变化: 48.57s(止), 48.89s(起), 49.77s(止), 50.33s(起), 50.41s(止), 50.57s(起)
+  PP: no-response
+  PP 说话段共 0 个: []
+
+==============================================================================
+[repetition1_interleave] repetition/function @ conv_31982da49
+  切换点=1162.63s（事件起点 1162.67s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s ABABABABA.A.A.A.......A.A.ABAB.BABABABABABABABABABABABABA.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A. +2.0s
+  切换点: A=说 B=说；B 连续说话段 1161.67–1162.79s (跨切换点)
+  窗口内 A 声学变化: 1161.27s(止), 1161.51s(起), 1161.83s(止), 1161.91s(起)
+  PP: initiation(新发起)；发起段 1171.59–1177.83s（延迟 +8.92s）
+  让出（A 在 PP 说话时进入 → PP 停止）: 延迟/让出时长的列表 [(np.float64(4.32), np.float64(1.92)), (np.float64(5.76), np.float64(0.48))]
+  PP 说话段共 1 个: [(np.float64(1171.6), np.float64(1177.8))]
+
+==============================================================================
+[repetition2_interleave] repetition/function @ conv_31982da49
+  切换点=2179.54s（事件起点 2179.58s，量化差 -0.04s）
+  ±2s 声学状态串（80ms/格, 左A右B, '.'=静音）:
+    -2.0s ABABABAB.B.B.B.B.B.B.B.B.B.B.B.B......A.A.A.ABABABABABA.ABABABABABABABAB.BA.A.ABAB..A.A.A.A.A.A.A.A. +2.0s
+  切换点: A=说 B=说；B 连续说话段 2179.30–2179.62s (跨切换点)
+  窗口内 A 声学变化: 2177.86s(止), 2179.06s(起), 2180.42s(止), 2180.50s(起), 2180.82s(止), 2180.90s(起)
+  PP: initiation(新发起)；发起段 2183.54–2185.22s（延迟 +3.96s）
+  让出（A 在 PP 说话时进入 → PP 停止）: 延迟/让出时长的列表 [(np.float64(0.32), np.float64(1.36)), (np.float64(0.56), np.float64(1.12)), (np.float64(1.04), np.float64(0.64)), (np.float64(1.28), np.float64(0.4)), (np.float64(0.0), np.float64(0.8))]
+  PP 说话段共 5 个: [(np.float64(2183.5), np.float64(2185.2)), (np.float64(2187.5), np.float64(2188.3)), (np.float64(2189.5), np.float64(2190.0)), (np.float64(2190.7), np.float64(2193.6)), (np.float64(2193.9), np.float64(2194.3))]

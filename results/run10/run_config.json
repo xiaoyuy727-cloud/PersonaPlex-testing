@@ -1,0 +1,67 @@
+{
+  "protocol_version": "pp-replay-v2",
+  "run_date": "2026-10-11",
+  "description": "PersonaPlex 流式回放：10 事件（5 类 × 2）+ 2 个 official 对照；PP 扮演 B，测量对 A 侧犹豫现象的 turn-taking 行为",
+  "models": {
+    "personaplex_weights": {
+      "repo": "nvidia/personaplex-7b-v1",
+      "revision": "fdaf4090a61cb315c138a1faee287ffd6c716309",
+      "dtype": "bfloat16",
+      "params_B": 8.37
+    },
+    "personaplex_code": {
+      "repo": "https://github.com/NVIDIA/personaplex",
+      "commit": "3428dfd95309a7f3c84fd93259ded0f810d1ff91",
+      "install": "pip install --no-deps ./moshi（moshi 子目录）"
+    },
+    "mimi": "随 nvidia/personaplex-7b-v1 分发（tokenizer-e351c8d8-checkpoint125.safetensors）"
+  },
+  "dataset": {
+    "repo": "TheAgenticDataCompany/open-yap-1k",
+    "subset": "HF 公开样本（16 conversations / 8.9h / CC-BY-4.0）",
+    "downloaded": "2026-10-11",
+    "checksums": "provenance/dataset_files.sha256",
+    "event_index": "events/run10_case_index.csv（本实验 12 case）+ events/selection_50.csv（事件池）"
+  },
+  "sampling": {
+    "seed": 42424242,
+    "use_sampling": true,
+    "temperature_audio": 0.8,
+    "temperature_text": 0.7,
+    "top_k_audio": 250,
+    "top_k_text": 25
+  },
+  "timing_alignment": {
+    "mimi_frame_ms": 80,
+    "frame_rate_hz": 12.5,
+    "mimi_sample_rate": 24000,
+    "clip_audio_sample_rate": 24000,
+    "output_content_lag_frames": 1,
+    "output_content_lag_equals_max_delay": true,
+    "decode_lag_frames": 0,
+    "switch_quantization": "floor((t_start - clip_start)/0.08)，≤80ms",
+    "csv_wav_rms_maxdiff_db_range": [0.58, 0.75]
+  },
+  "clip_design": {
+    "history_s": 45,
+    "reaction_window_s": 15,
+    "phase1": "历史回放（B→moshi 流 teacher-force，A→用户流；overlap 时同时）",
+    "phase2": "仅停止强制 B；A 真实音频继续逐帧喂入，模型自由生成"
+  },
+  "replay_protocols": {
+    "interleave": "主实验：A/B 双轨回放，overlap 帧同时喂入",
+    "official": "技术对照：仅 B 历史（voice-prompt 式，用户流 sine）"
+  },
+  "onset_detection": {
+    "criterion": "解码 RMS > 底噪(20分位)+20dB，连续 3 帧；跳过第 0 帧（解码瞬态）",
+    "token_equality_criterion": "已弃用（自由生成静音 token 仅 2/8 码本与 SILENCE_TOKENS 相同）",
+    "metric_separation": ["continuation", "initiation", "floor_yielding", "no_response"]
+  },
+  "verification": {
+    "teacher_forcing_echo": "逐位精确，lag=1 帧（probe1）",
+    "decode_lag_probe": "δ=0 帧（probe2）",
+    "frame_count_assertions": "12/12 通过",
+    "text_force_probe": "T1/T2 组合均逐帧精确回显（results/probes/probe_text_force_output.txt）"
+  },
+  "cases": "results/run10/run10_results.json；逐帧 results/run10/frames/；文本 results/run10/text/"
+}

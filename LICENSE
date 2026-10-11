@@ -1,0 +1,28 @@
+MIT License
+
+Copyright (c) 2026 full-duplex-turn-taking-eval contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+Third-party notices:
+- 本仓库代码基于 NVIDIA/personaplex（MIT）与 kyutai/moshi（MIT）的推理接口编写。
+- PersonaPlex 模型权重为 NVIDIA Open Model License，本仓库不包含权重。
+- Open Yap 1K 数据集为 CC-BY-4.0（The Agentic Data Company），本仓库不包含原始音频；
+  events/*.csv 中源自数据集的转写片段沿用 CC-BY-4.0。

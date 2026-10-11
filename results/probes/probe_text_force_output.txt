@@ -1,0 +1,11 @@
+（probe_text_force.py 实际运行输出，2026-10-11，服务器 GPU: RTX 5090）
+预热完成
+待强制文本: ['Well, I mean,', ' you know,', " that's", ' a', ' good', ' point.']
+  编码: [2657, 261, 293, 738, 261, 260, 304, 534, 261, 260, 283, 286, 266, 260, 272, 260, 576, 260, 580, 263] -> ['▁Well', ',', '▁I', '▁mean', ',', '▁', '▁you', '▁know', ',', '▁', '▁that', "'", 's', '▁', '▁a', '▁', '▁good', '▁', '▁point', '.']
+[T1] 步数=30 输出帧=28 强制回显(逐帧与输入一致)=True
+[T1] 输出文本流: , I mean,  you know,  that's  a  good  point.PADPADPADPADPADPADPADPADPAD
+[T1] 释放后自由生成（前12帧）: PADEPAD Hello?PADPADPADPADPADPADPADPAD
+[T2] 步数=72 输出帧=70 强制回显(逐帧与输入一致)=True
+[T2] 输出文本流: , I mean,  you know,  that's  a  good  point. Well, I mean,  you know,  that's  a  good  point. Well, I mean,  you know,  that's  a  good  point.PADPADPADPADPADPADPADPADPADPADPAD
+[T2] 释放后自由生成: PADPADPADEPAD Well,EPAD IEPAD mean,EPAD
+TEXT_FORCE_PROBE_DONE

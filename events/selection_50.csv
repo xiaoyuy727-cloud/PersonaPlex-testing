@@ -1,0 +1,51 @@
+conv,speaker,etype,sub,t_start,t_end,dur,text,context,clip_start,clip_end
+conv_04692967d40e,a,pause,,327.9,329.1,1.2,[1.20s],"past years, okay does the  ⏸  years, okay does the voice",282.9,344.1
+conv_04692967d40e,a,filler,,627.06,627.22,0.16,"uh,","You know, he's, uh, doing a very",582.06,642.22
+conv_04692967d40e,a,filler,,722.94,723.1,0.16,"uh,","to be particular, uh, it's just very",677.94,738.1
+conv_04692967d40e,a,filler,,904.29,904.45,0.16,"uh,","very expensive yet, uh, people actually are",859.29,919.45
+conv_0c917fc63b3b,a,filler,,113.91,114.08,0.16,"uh,","you many times, uh, before, you know,",68.91,129.08
+conv_0c917fc63b3b,a,filler,,124.15,124.31,0.16,"uh,","You know? And, uh, yeah, I'm trying",79.15,139.31
+conv_0c917fc63b3b,b,filler,,194.44,194.6,0.16,"uh,","I'm thinking like, uh, if I could",149.44,209.6
+conv_0c917fc63b3b,b,filler,,1114.41,1114.49,0.08,"uh,","the moon, and, uh, I don't see",1069.41,1129.49
+conv_10cf7f6ff081,a,pause,,50.05,51.26,1.2,[1.20s],"minds. And, yeah, I do  ⏸  And, yeah, I do I",5.05,66.26
+conv_10cf7f6ff081,a,pause,,76.25,77.44,1.2,[1.20s],And yeah. What's are you  ⏸  yeah. What's are you still,31.25,92.44
+conv_10cf7f6ff081,b,pause,,244.19,245.4,1.2,[1.20s],"know, the most, uh, most  ⏸  the most, uh, most people",199.19,260.4
+conv_10cf7f6ff081,b,pause,,475.68,476.88,1.2,[1.20s],point in itself if we  ⏸  in itself if we apply,430.68,491.88
+conv_14f897f75018,a,pause,,70.74,71.94,1.2,[1.20s],"exactly the problem. So yeah.  ⏸  the problem. So yeah. But,",25.74,86.94
+conv_14f897f75018,a,lengthen,,117.61,118.57,0.96,sometimes.,"thr=0.90s | has some troubles sometimes. But, No. I",72.61,133.57
+conv_14f897f75018,b,pause,,197.21,198.41,1.2,[1.20s],"this morning, and Kimi Antonelli,  ⏸  morning, and Kimi Antonelli, actually",152.21,213.41
+conv_14f897f75018,a,pause,,791.43,792.63,1.2,[1.20s],Good. Good spot. So is  ⏸  Good spot. So is there,746.43,807.63
+conv_2e4aec4666d8,b,pause,,34.51,35.71,1.2,[1.20s],"Yeah. That's good. Yeah. No.  ⏸  That's good. Yeah. No. Actually,",0,50.71
+conv_2e4aec4666d8,b,pause,,80.77,81.97,1.2,[1.20s],"so fast, man. And, uh,  ⏸  fast, man. And, uh, yeah,",35.77,96.97
+conv_2e4aec4666d8,b,pause,,555.48,556.68,1.2,[1.20s],retiring. I think he did  ⏸  I think he did pretty,510.48,571.68
+conv_2e4aec4666d8,b,pause,,576.11,577.31,1.2,[1.20s],many Ballon d'Ors. Yeah. I  ⏸  Ballon d'Ors. Yeah. I I,531.11,592.31
+conv_31982da49c73,a,overlap,by_a,72.85,73.66,0.8,overlap 0.80s,,27.85,88.66
+conv_31982da49c73,b,overlap,by_b,274.18,274.98,0.8,overlap 0.80s,,229.18,289.98
+conv_31982da49c73,a,repetition,function,1162.67,1162.99,0.32,I I,gap=0.00s | Yes. So this I I haven't found,1117.67,1177.99
+conv_31982da49c73,a,repetition,function,2179.58,2179.9,0.32,I I,"gap=0.00s | like potatoes. Yeah. I I wanna, you",2134.58,2194.9
+conv_31bedfc99b53,a,overlap,by_a,252.45,253.25,0.8,overlap 0.80s,,207.45,268.25
+conv_31bedfc99b53,b,filler,,921.87,921.95,0.08,"uh,","You know? And, uh, you know you",876.87,936.95
+conv_31bedfc99b53,b,repetition,function,1121.87,1122.19,0.32,the the,"gap=0.00s | the the players, the the the way",1076.87,1137.19
+conv_31bedfc99b53,b,overlap,by_b,1267.22,1268.02,0.8,overlap 0.80s,,1222.22,1283.02
+conv_5a798c657bb0,a,overlap,by_a,60.68,61.48,0.8,overlap 0.80s,,15.68,76.48
+conv_5a798c657bb0,b,overlap,by_b,108.53,109.33,0.8,overlap 0.80s,,63.53,124.33
+conv_5a798c657bb0,a,overlap,by_a,409.31,410.11,0.8,overlap 0.80s,,364.31,425.11
+conv_5a798c657bb0,b,overlap,by_b,534.84,535.64,0.8,overlap 0.80s,,489.84,550.64
+conv_756ee444d825,b,repetition,function,1050.71,1051.03,0.32,that. That,gap=0.00s | I could dig that. That sounds like,1005.71,1066.03
+conv_756ee444d825,b,repetition,function,1214.68,1215.0,0.32,that that,gap=0.00s | have people like that that I feel,1169.68,1230.0
+conv_756ee444d825,b,repetition,function,2626.09,2626.41,0.32,You you,gap=0.00s | life. Period. Yes. You you you just,2581.09,2641.41
+conv_756ee444d825,b,repetition,function,3501.61,3501.86,0.24,I I,"gap=0.00s | Man, I'm sorry. I I look, I",3456.61,3516.86
+conv_aa4777220a1e,a,lengthen,,59.56,60.44,0.88,"grandma,","thr=0.88s | like dead old grandma, like killing people.",14.56,75.44
+conv_aa4777220a1e,a,repetition,function,768.1,768.41,0.32,I I,gap=0.00s | Mhmm. Mhmm. Yeah. I I know what,723.1,783.41
+conv_aa4777220a1e,b,repetition,function,2316.89,2317.13,0.24,I I,gap=0.00s | a little down. I I could pull,2271.89,2332.13
+conv_aa4777220a1e,b,repetition,function,3162.78,3163.1,0.32,I? I,"gap=0.00s | a, where was I? I think I",3117.78,3178.1
+conv_bcff0c2a0be7,b,lengthen,,89.15,89.95,0.8,Yeah.,thr=0.75s | head. Young again. Yeah. Right. You talking,44.15,104.95
+conv_bcff0c2a0be7,b,lengthen,,242.91,243.72,0.8,Yeah.,thr=0.75s | in these streets. Yeah. Yeah. That's what,197.91,258.72
+conv_bcff0c2a0be7,b,repetition,function,434.83,435.15,0.32,you you,gap=0.00s | does. I gotta you you I've heard,389.83,450.15
+conv_bcff0c2a0be7,b,repetition,function,531.02,531.35,0.32,I I,"gap=0.00s | good fifteen years, I I should say.",486.02,546.35
+conv_cb37687ec915,a,lengthen,,30.59,31.47,0.88,Yeah.,"thr=0.84s | Oh, yeah. Yeah. Yeah. No. It didn't",0,46.47
+conv_cb37687ec915,a,lengthen,,71.22,72.1,0.88,Agreed.,thr=0.84s | food and traveling? Agreed. So I'm gonna,26.22,87.1
+conv_cb37687ec915,a,lengthen,,155.28,156.16,0.88,Stuffing,"thr=0.84s | I mean? Yep. Stuffing fresh green beans,",110.28,171.16
+conv_cb37687ec915,a,lengthen,,213.44,214.31,0.88,"egg,","thr=0.84s | chopped up boiled egg, chunks of cheese,",168.44,229.31
+conv_d4005da6db98,a,filler,,601.19,601.27,0.08,"uh,","figured out, and, uh, that's good. That's",556.19,616.27
+conv_e11edcca8521,a,filler,,748.15,748.23,0.08,"ah,","hot, it's like, ah, freezy cold. Just",703.15,763.23

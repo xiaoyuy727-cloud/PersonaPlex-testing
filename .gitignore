@@ -1,0 +1,33 @@
+# ===== 数据与媒体（严禁入库：原始音频/生成音频/权重/归档）=====
+data/
+*.wav
+*.mp3
+*.flac
+*.safetensors
+*.pt
+*.pth.tar
+*.tar
+*.tar.gz
+*.zip
+
+# ===== 密钥与环境（严禁入库）=====
+*.env
+.env*
+*.pem
+*.key
+
+# ===== Python / 工具缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ===== 运行产物与缓存（结果文件按白名单显式添加）=====
+outputs/
+logs/
+*.log
+.cache/
+hf_cache/
+venvs/
+.venv/
